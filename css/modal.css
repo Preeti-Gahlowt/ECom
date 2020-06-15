@@ -1,0 +1,61 @@
+.modal-dialog.modal-enquiry {
+    margin: 60px auto;
+}
+.modal-enquiry .modal-content {
+    border: 2px solid #ffcc6e;
+}
+.modal-enquiry .modal-header button.close {
+    background: #ffcc6e;
+    opacity: 1;
+    color: #cc0000;
+    height: 40px;
+    width: 40px;
+    text-shadow: none;
+    border-radius: 50%;
+    position: absolute;
+    right: -15px;
+    top: -15px;
+}
+.modal-enquiry .modal-header .modal-title {
+
+   font-family: inherit;
+
+}
+.modal-enquiry .modal-header .modal-title span {
+
+    color: #ffcc6e;
+
+}
+.modal-enquiry .modal-header {
+
+    background: #cc0d72;
+    color: #fff;
+
+}
+.modal-enquiry .modal-body {
+    background:url('../images/bg1.jpg');
+    background-size: cover;
+    padding: 20px;
+}
+.modal-enquiry .modal-body .form-control {
+
+    min-height: 40px;
+    border-radius: 0;
+    border: 1px solid #eeeed8;
+
+}
+.modal-enquiry .modal-body .form-group label {
+
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+
+}
+.btn.btn-enquire {
+    background: #cc0d72;
+    color: #fff;
+    padding: 11px 15px;
+    /*border: 3px solid #344554;*/
+    border-radius: 0;
+    box-shadow: 2px 2px 0px #fff;
+}
